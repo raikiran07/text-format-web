@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Festive&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Name</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo"><p class="nav logo">Welcome to YourName</p></div>
+        <div class="links">
+            <ul>
+                <li><a href="#">concept</a></li>
+                <li><a href="#">code</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </div>
+        
+        <p class="nav tag">Kiran Rai</p>
+    </nav>
+
+    <div class="container">
+        <div class="inputs">
+            <label for="user-input"><p class="input-container">
+                <input type="text" id="username" placeholder="Enter your name here">
+            </label></p>
+            <ul class="options">
+                <li><label for="checkbox">
+                    <input type="checkbox" id="capital" class="box"><span>Only capitalization of the sentence</span> 
+                </label></li>
+                <li><label for="checkbox">
+                    <input type="checkbox" id="allCap" class="box"> <span>All first letter capitalization</span>    
+                </label></li>
+                <li><label for="checkbox">
+                    <input type="checkbox" id="removeNumber" class="box"><span>Remove Number</span>
+                </label></li>
+                <li><label for="checkbox">
+                    <input type="checkbox" id="removeSpecial" class="box"> <span>Remove special characters and spaces</span>
+                </label></li>
+            </ul>
+            <p id="btn">
+                <button class="btn submit" id="enter">Submit</button>
+            </p>
+           
+        </div>
+        <div class="results">
+            <h2 id="displayresult">Your Formatted Name : <span id="result">Kiran Rai</span></h2>
+            <button id="reset" class="btn">Reset</button>
+        </div>
+       
+
+    </div>
+    <footer id="info">
+        <p>This site is made with 💜 by Kiran Rai</p>
+        <p id="copyright">&copy;raikiran07</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

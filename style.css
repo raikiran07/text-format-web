@@ -1,0 +1,137 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    min-height:100vh;
+    position:relative;
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px;
+    background-color:rgb(243, 131, 112);
+    font-family: 'Festive', cursive;
+    font-weight:600;
+    font-size:20px;
+}
+
+nav ul{
+    list-style-type:none;
+    display:flex;
+    /* border:1px solid black; */
+    margin-right:15rem;
+    font-family: 'Lato', sans-serif;
+    
+}
+ 
+nav ul li{
+    margin-left:1.5rem;
+}
+
+nav ul li:first-child{
+    margin-left:0;
+}
+
+nav ul li a{
+    text-decoration:none;
+}
+
+.container{
+    width:100%;
+    /* margin:1.5rem auto; */
+
+}
+.inputs{
+    width:70%;
+    margin:1.5rem auto;
+    /* border:1px solid black; */
+}
+#username{
+    padding:15px;
+    width:60%;
+    font-size:18px;
+    outline:none;
+    border:3px solid rgb(253, 207, 199);
+    transition:all .3s ease;
+    margin:1.5rem;
+}
+
+#username:focus{
+    border-color:rgb(243, 131, 112);
+}
+
+.input-container{
+    text-align:center;
+}
+
+.options{
+    /* border:1px solid black; */
+    font-size:18px;
+    width:50%;
+    margin:1.5rem auto;
+    list-style-type:none;
+}
+
+input.box{
+    width:20px;
+    height:20px;
+    margin:0.8rem;
+    
+    /* align-items:center; */
+
+}
+
+.options li{
+    /* display:flex; */
+    align-items:center;
+    border:1px solid red;
+}
+
+.results{
+    width:100%;
+    text-align:center;
+    margin:3rem 0;
+    border:1px solid green;
+    background:rgb(243, 131, 112);
+    padding:15px;
+    display:none;
+}
+
+#btn{
+    text-align:center;
+}
+
+.btn{
+    padding:5px 15px;
+    font-size:18px;
+}
+
+footer{
+    border:1px solid black;
+    position:absolute;
+    bottom:0;
+    padding:20px;
+    width:100%;
+    text-align:center;
+    background-color:#000;
+    color:#fff;
+}
+
+footer p{
+    font-size:16px;
+}
+
+#copyright{
+    font-size:14px;
+    margin-top:0.6rem;
+}
+
+#reset{
+    margin-top:1.5rem;
+    padding:7px 18px;
+}
